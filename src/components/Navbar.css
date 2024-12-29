@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px groove #ddd;
+}
+
+.navbar-logo {
+    display: flex;
+    /* Aligns content if you add other elements later */
+    align-items: center;
+    /* Vertically centers the image */
+}
+
+.navbar-logo img {
+    width: 100px;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+.navbar-categories a,
+.navbar-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.navbar-search input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+}
+
+.search-btn {
+    padding: 8px 15px;
+    background-color: #121010;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.navbar-cart a {
+    font-size: 1.2rem;
+    color: #333;
+    margin-right: 15px;
+}
+
+.navbar-user button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-btn {
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.signup-btn {
+    background-color: #121010;
+    color: #fff;
+}
+
+.navbar-user button:hover {
+    opacity: 0.9;
+}

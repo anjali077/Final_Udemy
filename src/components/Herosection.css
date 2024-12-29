@@ -1,0 +1,42 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    padding: 70px 40px;
+    background-color: gainsboro;
+    color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.hero-box {
+    width: 30%;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    margin-top: -70px;
+}
+
+.hero-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.hero-box p {
+    margin-bottom: 15px;
+}
+
+.hero-main {
+    width: 20%;
+    text-align: left;
+}

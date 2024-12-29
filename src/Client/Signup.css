@@ -1,0 +1,88 @@
+/* Container to hold image and form side by side */
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 10%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.signup-header h1 {
+    margin-bottom: 200px;
+}
+
+
+/* Image container styles */
+
+.signup-container::before {
+    content: "";
+    background: url('../assets/image/login2.png') no-repeat center center/contain;
+    flex: 1;
+    height: 70%;
+}
+
+
+/* Signup form container */
+
+.signup-form {
+    flex: 1;
+    /* Takes up the other 50% width */
+    background-color: #fff;
+    /* White background for form */
+    padding: 30px;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    max-width: 400px;
+    margin: auto;
+    /* Center vertically */
+}
+
+
+/* Form input and labels */
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.signup-form input,
+.signup-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+}
